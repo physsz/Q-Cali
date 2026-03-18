@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "q-cali"
+version = "0.1.0"
+description = "Superconducting qubit calibration framework with TLS forecasting and frequency optimization"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.11",
+    "qutip>=5.0",
+    "scqubits>=4.0",
+    "matplotlib>=3.7",
+    "cma>=3.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "ruff",
+]
+notebooks = [
+    "jupyterlab",
+    "ipywidgets",
+]
+gpu = [
+    "cupy>=12.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

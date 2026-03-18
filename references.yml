@@ -1,0 +1,553 @@
+arute2019:
+  type: article
+  title: "Quantum supremacy using a programmable superconducting processor"
+  author:
+    - "Arute, Frank"
+    - "Arya, Kunal"
+    - "Babbush, Ryan"
+    - "others"
+  date: 2019
+  page-range: 505-510
+  parent:
+    type: periodical
+    title: "Nature"
+    volume: 574
+  serial-number: "10.1038/s41586-019-1666-5"
+
+arute2019sup:
+  type: article
+  title: "Supplementary information for 'Quantum supremacy using a programmable superconducting processor'"
+  author:
+    - "Arute, Frank"
+    - "others"
+  date: 2019
+  serial-number: "arXiv:1910.11333"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+kelly2018:
+  type: article
+  title: "Physical qubit calibration on a directed acyclic graph"
+  author:
+    - "Kelly, Julian"
+    - "O'Malley, Peter"
+    - "Neeley, Matthew"
+    - "Neven, Hartmut"
+    - "Martinis, John M."
+  date: 2018
+  serial-number: "arXiv:1803.03226"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+patent2018:
+  type: patent
+  title: "Automatic qubit calibration"
+  author:
+    - "Kelly, Julian Shaw"
+  date: 2018
+  serial-number: "US9940212B2"
+  parent:
+    type: periodical
+    title: "U.S. Patent"
+
+klimov2020:
+  type: article
+  title: "The Snake Optimizer for Learning Quantum Processor Control Parameters"
+  author:
+    - "Klimov, Pavel V."
+    - "Kelly, Julian"
+    - "Martinis, John M."
+    - "Neven, Hartmut"
+  date: 2020
+  serial-number: "arXiv:2006.04594"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+klimov2024:
+  type: article
+  title: "Optimizing quantum gates towards the scale of logical qubits"
+  author:
+    - "Klimov, Pavel V."
+    - "Bengtsson, Andreas"
+    - "Quintana, Chris"
+    - "others"
+  date: 2024
+  page-range: 2442
+  parent:
+    type: periodical
+    title: "Nature Communications"
+    volume: 15
+  serial-number: "10.1038/s41467-024-46623-y"
+
+google2023surface:
+  type: article
+  title: "Suppressing quantum errors by scaling a surface code logical qubit"
+  author:
+    - "Google Quantum AI"
+  date: 2023
+  page-range: 676-681
+  parent:
+    type: periodical
+    title: "Nature"
+    volume: 614
+  serial-number: "10.1038/s41586-022-05434-1"
+
+willow2024:
+  type: article
+  title: "Quantum error correction below the surface code threshold"
+  author:
+    - "Google Quantum AI"
+  date: 2024
+  parent:
+    type: periodical
+    title: "Nature"
+  serial-number: "10.1038/s41586-024-08449-y"
+
+bengtsson2024:
+  type: article
+  title: "Model-based Optimization of Superconducting Qubit Readout"
+  author:
+    - "Bengtsson, Andreas"
+    - "Opremcak, Alex"
+    - "Khezri, Mostafa"
+    - "others"
+  date: 2024
+  page-range: 100603
+  parent:
+    type: periodical
+    title: "Physical Review Letters"
+    volume: 132
+  serial-number: "arXiv:2308.02079"
+
+sank2024:
+  type: article
+  title: "System Characterization of Dispersive Readout in Superconducting Qubits"
+  author:
+    - "Sank, Daniel"
+    - "Opremcak, Alex"
+    - "Bengtsson, Andreas"
+    - "others"
+  date: 2024
+  page-range: "024055"
+  parent:
+    type: periodical
+    title: "Physical Review Applied"
+    volume: 23
+  serial-number: "arXiv:2402.00413"
+
+swiadek2024:
+  type: article
+  title: "Enhancing Dispersive Readout of Superconducting Qubits Through Dynamic Control of the Dispersive Shift"
+  author:
+    - "Swiadek, Francois"
+    - "others"
+  date: 2024
+  page-range: "040326"
+  parent:
+    type: periodical
+    title: "PRX Quantum"
+    volume: 5
+  serial-number: "arXiv:2307.07765"
+
+sheldon2016:
+  type: article
+  title: "Procedure for systematically tuning up crosstalk in the cross resonance gate"
+  author:
+    - "Sheldon, Sarah"
+    - "Magesan, Easwar"
+    - "Chow, Jerry M."
+    - "Gambetta, Jay M."
+  date: 2016
+  serial-number: "arXiv:1603.04821"
+  parent:
+    type: periodical
+    title: "Physical Review A"
+    volume: 93
+
+patterson2019:
+  type: article
+  title: "Calibration of the cross-resonance two-qubit gate between directly-coupled transmons"
+  author:
+    - "Patterson, A. D."
+    - "others"
+  date: 2019
+  page-range: "064013"
+  parent:
+    type: periodical
+    title: "Physical Review Applied"
+    volume: 12
+  serial-number: "arXiv:1905.05670"
+
+md_drag_cr:
+  type: article
+  title: "Experimental error suppression in Cross-Resonance gates via multi-derivative pulse shaping"
+  author:
+    - "others"
+  date: 2024
+  parent:
+    type: periodical
+    title: "npj Quantum Information"
+  serial-number: "10.1038/s41534-024-00863-4"
+
+barends2014:
+  type: article
+  title: "Logic gates at the surface code threshold: Superconducting qubits poised for fault-tolerant quantum computing"
+  author:
+    - "Barends, R."
+    - "Kelly, J."
+    - "Megrant, A."
+    - "others"
+  date: 2014
+  page-range: 500-503
+  parent:
+    type: periodical
+    title: "Nature"
+    volume: 508
+  serial-number: "arXiv:1402.4848"
+
+kelly2016insitu:
+  type: article
+  title: "Scalable in situ qubit calibration during repetitive error detection"
+  author:
+    - "Kelly, J."
+    - "Barends, R."
+    - "Fowler, A. G."
+    - "others"
+  date: 2016
+  page-range: "032321"
+  parent:
+    type: periodical
+    title: "Physical Review A"
+    volume: 94
+  serial-number: "arXiv:1603.03082"
+
+google_leakage2021:
+  type: article
+  title: "Removing leakage-induced correlated errors in superconducting quantum error correction"
+  author:
+    - "Google Quantum AI"
+  date: 2021
+  page-range: 1761
+  parent:
+    type: periodical
+    title: "Nature Communications"
+    volume: 12
+  serial-number: "arXiv:2102.06131"
+
+google_leakage2023:
+  type: article
+  title: "Overcoming leakage in quantum error correction"
+  author:
+    - "Google Quantum AI"
+  date: 2023
+  parent:
+    type: periodical
+    title: "Nature Physics"
+  serial-number: "10.1038/s41567-023-02226-w"
+
+hyyppa2024:
+  type: article
+  title: "Reducing leakage of single-qubit gates for superconducting quantum processors using analytical control pulse envelopes"
+  author:
+    - "Hyppä, Eric"
+    - "others"
+  date: 2024
+  page-range: "030353"
+  parent:
+    type: periodical
+    title: "PRX Quantum"
+    volume: 5
+  serial-number: "arXiv:2402.17757"
+
+malarchick2025:
+  type: article
+  title: "When does numerical pulse optimization actually help? Error budgets, robustness tradeoffs, and calibration guidance for transmon single-qubit gates"
+  author:
+    - "Malarchick, Rylan"
+  date: 2025
+  serial-number: "arXiv:2511.12799"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+fan2025:
+  type: article
+  title: "Calibrating quantum gates up to 52 qubits in a superconducting processor"
+  author:
+    - "Fan, Daojin"
+    - "others"
+  date: 2025
+  page-range: 33
+  parent:
+    type: periodical
+    title: "npj Quantum Information"
+    volume: 11
+  serial-number: "arXiv:2505.22390"
+
+osman2023:
+  type: article
+  title: "Mitigation of frequency collisions in superconducting quantum processors"
+  author:
+    - "Osman, Amr"
+    - "others"
+  date: 2023
+  page-range: "043001"
+  parent:
+    type: periodical
+    title: "Physical Review Research"
+    volume: 5
+  serial-number: "arXiv:2303.04663"
+
+ibm_laser:
+  type: article
+  title: "High-performance superconducting quantum processors via laser annealing of transmon qubits"
+  author:
+    - "IBM Research"
+  date: 2021
+  parent:
+    type: periodical
+    title: "Science Advances"
+  serial-number: "10.1126/sciadv.abi6690"
+
+abaa2024:
+  type: article
+  title: "Post-fabrication frequency trimming of fixed-frequency transmon qubits using alternating bias assisted annealing"
+  author:
+    - "others"
+  date: 2024
+  serial-number: "arXiv:2407.06425"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+marciniak2026:
+  type: article
+  title: "Millisecond-Scale Calibration and Benchmarking of Superconducting Qubits"
+  author:
+    - "Marciniak, Malthe A."
+    - "others"
+  date: 2026
+  serial-number: "arXiv:2602.11912"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+berritta2026:
+  type: article
+  title: "Real-time adaptive tracking of fluctuating relaxation rates in superconducting qubits"
+  author:
+    - "Berritta, Fabrizio"
+    - "others"
+  date: 2026
+  serial-number: "arXiv:2506.09576"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+qibocal2024:
+  type: article
+  title: "Qibocal: an open-source framework for calibration of self-hosted quantum devices"
+  author:
+    - "Pasquale, Andrea"
+    - "others"
+  date: 2024
+  serial-number: "arXiv:2410.00101"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+qiskit_exp:
+  type: web
+  title: "Qiskit Experiments: A Python package to characterize and calibrate quantum computers"
+  author:
+    - "IBM Research"
+  date: 2024
+  url: "https://qiskit-community.github.io/qiskit-experiments/"
+  parent:
+    type: periodical
+    title: "Journal of Open Source Software"
+
+qualibrate:
+  type: web
+  title: "QUAlibrate: Open-source calibration framework"
+  author:
+    - "Quantum Machines"
+  date: 2025
+  url: "https://github.com/qua-platform/qualibrate"
+  parent:
+    type: periodical
+    title: "Quantum Machines"
+
+laboneq:
+  type: web
+  title: "LabOne Q User Manual"
+  author:
+    - "Zurich Instruments"
+  date: 2025
+  url: "https://docs.zhinst.com/labone_q_user_manual/"
+  parent:
+    type: periodical
+    title: "Zurich Instruments"
+
+qubic:
+  type: article
+  title: "Automatic Qubit Characterization and Gate Optimization with QubiC"
+  author:
+    - "others"
+  date: 2022
+  parent:
+    type: periodical
+    title: "ACM Transactions on Quantum Computing"
+  serial-number: "10.1145/3529397"
+
+pack2024:
+  type: article
+  title: "Benchmarking Optimization Algorithms for Automated Calibration of Quantum Devices"
+  author:
+    - "Pack, K."
+    - "Machnes, S."
+    - "Wilhelm, F. K."
+  date: 2024
+  serial-number: "arXiv:2509.08555"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+alphaqubit:
+  type: web
+  title: "AlphaQubit: AI for quantum error correction"
+  author:
+    - "Google DeepMind"
+  date: 2024
+  url: "https://blog.google/technology/google-deepmind/alphaqubit-quantum-error-correction/"
+  parent:
+    type: periodical
+    title: "Google DeepMind Blog"
+
+gst2021:
+  type: article
+  title: "Gate Set Tomography"
+  author:
+    - "Nielsen, Erik"
+    - "others"
+  date: 2021
+  parent:
+    type: periodical
+    title: "Quantum"
+    volume: 5
+  page-range: 557
+  serial-number: "10.22331/q-2021-10-05-557"
+
+qruise:
+  type: web
+  title: "Qruise: Digital twin and closed-loop optimization for quantum devices"
+  author:
+    - "Qruise GmbH"
+  date: 2025
+  url: "https://www.qruise.com/"
+  parent:
+    type: periodical
+    title: "Qruise"
+
+rigetti_ai:
+  type: web
+  title: "Quantum Machines and Rigetti announce successful AI-powered quantum calibration challenge"
+  author:
+    - "Rigetti Computing"
+    - "Quantum Machines"
+  date: 2024
+  url: "https://investors.rigetti.com/news-releases/"
+  parent:
+    type: periodical
+    title: "Rigetti Investor Relations"
+
+ai_agent_cal:
+  type: article
+  title: "Automating quantum computing laboratory experiments with an agent-based AI framework"
+  author:
+    - "others"
+  date: 2025
+  parent:
+    type: periodical
+    title: "Cell Patterns"
+  serial-number: "10.1016/j.patter.2025"
+
+alc2025:
+  type: article
+  title: "Active leakage cancellation for superconducting qubits"
+  author:
+    - "others"
+  date: 2025
+  serial-number: "arXiv:2503.14731"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+lru_measurement:
+  type: article
+  title: "Leakage reduction units integrated with measurement in superconducting qubits"
+  author:
+    - "others"
+  date: 2025
+  serial-number: "arXiv:2511.17460"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+proctor2020:
+  type: article
+  title: "Detecting and tracking drift in quantum information processors"
+  author:
+    - "Proctor, Timothy"
+    - "others"
+  date: 2020
+  page-range: 5396
+  parent:
+    type: periodical
+    title: "Nature Communications"
+    volume: 11
+  serial-number: "10.1038/s41467-020-19074-4"
+
+neill2018:
+  type: article
+  title: "A blueprint for demonstrating quantum supremacy with superconducting qubits"
+  author:
+    - "Neill, C."
+    - "others"
+  date: 2018
+  page-range: eaao4309
+  parent:
+    type: periodical
+    title: "Science"
+    volume: 360
+  serial-number: "10.1126/science.aao4309"
+
+sung2021:
+  type: article
+  title: "Realization of High-Fidelity CZ and ZZ-Free iSWAP Gates with a Tunable Coupler"
+  author:
+    - "Sung, Y."
+    - "others"
+  date: 2021
+  page-range: "021058"
+  parent:
+    type: periodical
+    title: "Physical Review X"
+    volume: 11
+
+alexeev2025:
+  type: article
+  title: "Artificial intelligence for quantum computing"
+  author:
+    - "Alexeev, Yuri"
+    - "others"
+  date: 2025
+  page-range: 10829
+  parent:
+    type: periodical
+    title: "Nature Communications"
+    volume: 16
+  serial-number: "10.1038/s41467-025-65836-3"

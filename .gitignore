@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data
+*.h5
+*.hdf5
+data/raw/
+
+# Typst build artifacts (keep PDFs)
+*.typ.bak
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Drive symlink
+_drive/

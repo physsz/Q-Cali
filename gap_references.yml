@@ -1,0 +1,347 @@
+kelly2018:
+  type: article
+  title: "Physical qubit calibration on a directed acyclic graph"
+  author:
+    - "Kelly, Julian"
+    - "O'Malley, Peter"
+    - "Neeley, Matthew"
+    - "Neven, Hartmut"
+    - "Martinis, John M."
+  date: 2018
+  serial-number: "arXiv:1803.03226"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+patent2018:
+  type: patent
+  title: "Automatic qubit calibration"
+  author:
+    - "Kelly, Julian Shaw"
+  date: 2018
+  serial-number: "US9940212B2"
+  parent:
+    type: periodical
+    title: "U.S. Patent"
+
+klimov2024:
+  type: article
+  title: "Optimizing quantum gates towards the scale of logical qubits"
+  author:
+    - "Klimov, Pavel V."
+    - "Bengtsson, Andreas"
+    - "Quintana, Chris"
+    - "others"
+  date: 2024
+  page-range: 2442
+  parent:
+    type: periodical
+    title: "Nature Communications"
+    volume: 15
+  serial-number: "10.1038/s41467-024-46623-y"
+
+willow2024:
+  type: article
+  title: "Quantum error correction below the surface code threshold"
+  author:
+    - "Google Quantum AI"
+  date: 2024
+  parent:
+    type: periodical
+    title: "Nature"
+  serial-number: "10.1038/s41586-024-08449-y"
+
+qibocal2024:
+  type: article
+  title: "Qibocal: an open-source framework for calibration of self-hosted quantum devices"
+  author:
+    - "Pasquale, Andrea"
+    - "others"
+  date: 2024
+  serial-number: "arXiv:2410.00101"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+qualibrate:
+  type: web
+  title: "QUAlibrate: Open-source calibration framework"
+  author:
+    - "Quantum Machines"
+  date: 2025
+  url: "https://github.com/qua-platform/qualibrate"
+  parent:
+    type: periodical
+    title: "Quantum Machines"
+
+qiskit_exp:
+  type: web
+  title: "Qiskit Experiments: Characterization and calibration library"
+  author:
+    - "IBM Research"
+  date: 2024
+  url: "https://qiskit-community.github.io/qiskit-experiments/"
+  parent:
+    type: periodical
+    title: "Journal of Open Source Software"
+
+laboneq:
+  type: web
+  title: "LabOne Q: Automated qubit bring-up"
+  author:
+    - "Zurich Instruments"
+  date: 2025
+  url: "https://www.zhinst.com/europe/en/blogs/automated-qubit-bring-labone-q"
+  parent:
+    type: periodical
+    title: "Zurich Instruments"
+
+bengtsson2024:
+  type: article
+  title: "Model-based Optimization of Superconducting Qubit Readout"
+  author:
+    - "Bengtsson, Andreas"
+    - "Opremcak, Alex"
+    - "Khezri, Mostafa"
+    - "others"
+  date: 2024
+  page-range: 100603
+  parent:
+    type: periodical
+    title: "Physical Review Letters"
+    volume: 132
+  serial-number: "arXiv:2308.02079"
+
+marciniak2026:
+  type: article
+  title: "Millisecond-Scale Calibration and Benchmarking of Superconducting Qubits"
+  author:
+    - "Marciniak, Malthe A."
+    - "others"
+  date: 2026
+  serial-number: "arXiv:2602.11912"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+berritta2026:
+  type: article
+  title: "Real-time adaptive tracking of fluctuating relaxation rates in superconducting qubits"
+  author:
+    - "Berritta, Fabrizio"
+    - "others"
+  date: 2026
+  serial-number: "arXiv:2506.09576"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+pack2024:
+  type: article
+  title: "Benchmarking Optimization Algorithms for Automated Calibration of Quantum Devices"
+  author:
+    - "Pack, K."
+    - "Machnes, S."
+    - "Wilhelm, F. K."
+  date: 2024
+  serial-number: "arXiv:2509.08555"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+klimov2018_tls:
+  type: article
+  title: "Fluctuations of Energy-Relaxation Times in Superconducting Qubits"
+  author:
+    - "Klimov, Pavel V."
+    - "others"
+  date: 2018
+  page-range: "090502"
+  parent:
+    type: periodical
+    title: "Physical Review Letters"
+    volume: 121
+  serial-number: "10.1103/PhysRevLett.121.090502"
+
+tls_stats:
+  type: article
+  title: "Statistics of strongly coupled defects in superconducting qubits"
+  author:
+    - "others"
+  date: 2025
+  serial-number: "arXiv:2506.00193"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+tls_mitigate:
+  type: article
+  title: "Mitigating losses from strongly coupled defect modes in superconducting qubits"
+  author:
+    - "others"
+  date: 2024
+  serial-number: "arXiv:2407.18746"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+tls_tuning:
+  type: article
+  title: "Scalable site-specific TLS frequency tuning in superconducting qubits"
+  author:
+    - "others"
+  date: 2025
+  serial-number: "arXiv:2503.04702"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+cosmic_tls:
+  type: article
+  title: "Cosmic rays and correlated errors in superconducting qubit arrays"
+  author:
+    - "others"
+  date: 2025
+  parent:
+    type: periodical
+    title: "Nature Communications"
+  serial-number: "10.1038/s41467-025-61385-x"
+
+crosstalk:
+  type: article
+  title: "Crosstalk dispersion and spatial scaling in superconducting qubit arrays"
+  author:
+    - "others"
+  date: 2025
+  serial-number: "arXiv:2512.18148"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+collision_rules:
+  type: article
+  title: "Analysis of Frequency Collisions in Parametrically Modulated Circuits"
+  author:
+    - "others"
+  date: 2025
+  serial-number: "arXiv:2511.05031"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+freq_alloc:
+  type: article
+  title: "Efficient Frequency Allocation for Superconducting Quantum Processors"
+  author:
+    - "others"
+  date: 2024
+  serial-number: "arXiv:2410.20283"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+fan2025:
+  type: article
+  title: "Calibrating quantum gates up to 52 qubits in a superconducting processor"
+  author:
+    - "Fan, Daojin"
+    - "others"
+  date: 2025
+  page-range: 33
+  parent:
+    type: periodical
+    title: "npj Quantum Information"
+    volume: 11
+  serial-number: "arXiv:2505.22390"
+
+google_cmaes:
+  type: article
+  title: "Leakage reduction in fast superconducting qubit gates via optimal control"
+  author:
+    - "others"
+  date: 2020
+  parent:
+    type: periodical
+    title: "npj Quantum Information"
+  serial-number: "10.1038/s41534-020-00346-2"
+
+qick:
+  type: article
+  title: "QICK: Quantum Instrumentation Control Kit"
+  author:
+    - "Stefanazzi, Leandro"
+    - "others"
+  date: 2022
+  parent:
+    type: periodical
+    title: "Review of Scientific Instruments"
+    volume: 93
+  serial-number: "arXiv:2110.00557"
+
+cryoscope:
+  type: article
+  title: "Flux distortion calibration at the sub-permille level for superconducting qubit gates"
+  author:
+    - "others"
+  date: 2025
+  serial-number: "arXiv:2503.04610"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+coupler_char:
+  type: article
+  title: "Characterization of tunable couplers in superconducting qubit systems"
+  author:
+    - "others"
+  date: 2025
+  serial-number: "arXiv:2501.13646"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
+
+cryo_cmos:
+  type: web
+  title: "A cryo-CMOS control system for large-scale superconducting qubit quantum computing"
+  author:
+    - "IBM Research"
+  date: 2026
+  url: "https://research.ibm.com/publications/"
+  parent:
+    type: periodical
+    title: "APS March Meeting 2026"
+
+tls_diffusion:
+  type: article
+  title: "Dynamics of superconducting qubit relaxation times"
+  author:
+    - "others"
+  date: 2022
+  parent:
+    type: periodical
+    title: "npj Quantum Information"
+  serial-number: "10.1038/s41534-022-00643-y"
+
+tls_interacting:
+  type: article
+  title: "Interacting two-level defects as sources of fluctuating high-frequency noise in superconducting circuits"
+  author:
+    - "Muller, Clemens"
+    - "Lisenfeld, Juergen"
+    - "Shnirman, Alexander"
+  date: 2015
+  serial-number: "arXiv:1503.01637"
+  parent:
+    type: periodical
+    title: "Physical Review B"
+
+tls_mapping:
+  type: article
+  title: "Mapping TLS positions on transmon qubit electrodes"
+  author:
+    - "others"
+  date: 2025
+  serial-number: "arXiv:2511.05365"
+  parent:
+    type: periodical
+    title: "arXiv preprint"
