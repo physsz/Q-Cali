@@ -13,41 +13,69 @@ Calibration of superconducting transmon qubits is the rate-limiting step in scal
 | 5 | TLS forecasting (6 proposed algorithms) | In progress |
 | 10 | Control electronics stack | Benchmarked |
 
-## Architecture
+## Repository Structure
 
 ```
-src/
-├── simulator/          # Digital twin of a transmon processor
-│   ├── transmon.py     # Single qubit model (frequency, coherence, drift)
-│   ├── tls.py          # TLS defect landscape with spectral diffusion
-│   ├── processor.py    # Multi-qubit processor with noise + drift
-│   └── backend.py      # SimulatedBackend (same API as hardware)
-├── calibration/        # DAG-based calibration framework
-│   ├── dag.py          # DAG engine (maintain, diagnose, check_state)
-│   └── nodes/          # Individual calibration procedures
-├── optimizer/          # Snake-like frequency optimizer
-│   ├── snake.py        # Graph traversal outer loop
-│   ├── error_model.py  # 4-component error estimator (16 weights)
-│   └── inner_loop.py   # NM / CMA-ES / grid search
-├── tls_forecast/       # TLS prediction algorithms
-│   ├── changepoint.py  # Change-point detection + extrapolation
-│   ├── particle_filter.py
-│   ├── hmm.py
-│   └── gp_forecast.py
-└── backend/            # Hardware abstraction
-    ├── base.py         # ProcessorBackend ABC
-    └── hardware.py     # Real hardware adapter
+q-cali/
+├── src/                         # Python source code
+│   ├── simulator/               # Track A: digital twin of a transmon processor
+│   │   ├── transmon.py          #   Single qubit model (frequency, coherence, drift)
+│   │   ├── tls.py               #   TLS defect landscape with spectral diffusion
+│   │   ├── processor.py         #   Multi-qubit processor with noise + drift
+│   │   └── backend.py           #   SimulatedBackend (same API as hardware)
+│   ├── calibration/             # Gap 1: DAG-based calibration framework
+│   │   ├── dag.py               #   DAG engine (maintain, diagnose, check_state)
+│   │   └── nodes/               #   Individual calibration procedures
+│   ├── optimizer/               # Gap 3: Snake-like frequency optimizer
+│   │   ├── snake.py             #   Graph traversal outer loop
+│   │   ├── error_model.py       #   4-component error estimator (16 weights)
+│   │   └── inner_loop.py        #   NM / CMA-ES / grid search
+│   ├── tls_forecast/            # Gap 5: TLS prediction algorithms
+│   │   ├── changepoint.py       #   Change-point detection + extrapolation
+│   │   ├── particle_filter.py   #   Bayesian particle filter
+│   │   ├── hmm.py               #   Hidden Markov Model
+│   │   └── gp_forecast.py       #   Gaussian Process regression
+│   └── backend/                 # Hardware abstraction layer
+│       ├── base.py              #   ProcessorBackend ABC
+│       └── hardware.py          #   Real hardware adapter
+├── tests/                       # Unit and integration tests
+├── benchmarks/                  # Benchmark scripts (simulation)
+├── notebooks/                   # Jupyter analysis notebooks
+├── docs/
+│   ├── pdf/                     # Compiled documents
+│   │   ├── survey.pdf           #   SOTA survey (21 pp, 38 refs)
+│   │   ├── gap_solutions.pdf    #   Gap-filling proposals (19 pp)
+│   │   └── testbed.pdf          #   Testbed design (16 pp)
+│   ├── typst/                   # Typst sources + bibliography
+│   │   ├── survey.typ
+│   │   ├── gap_solutions.typ
+│   │   ├── testbed.typ
+│   │   ├── references.yml
+│   │   └── gap_references.yml
+│   └── research/                # Raw research notes
+│       ├── TLS_forecasting_research.md
+│       ├── calibration_DAG_reconstruction.md
+│       ├── snake_optimizer_reconstruction_research.md
+│       └── research_superconducting_qubit_calibration.md
+├── research_journal.md          # Running project log
+├── pyproject.toml
+└── README.md
 ```
 
 Key design principle: calibration algorithms import `ProcessorBackend` and run identically on `SimulatedBackend` (fast iteration) or `RealBackend` (hardware validation).
 
 ## Documents
 
-The `docs/` directory contains three survey/design documents:
+The `docs/pdf/` directory contains three survey/design documents:
 
 - **`survey.pdf`** — SOTA survey on superconducting qubit calibration (21 pages, 38 references)
 - **`gap_solutions.pdf`** — Proposed solutions for the 4 critical reproduction gaps (19 pages)
 - **`testbed.pdf`** — Simulation + experimental testbed design (16 pages)
+
+Typst sources and bibliographies are in `docs/typst/`. Compile with:
+```bash
+cd docs/typst && typst compile survey.typ ../pdf/survey.pdf
+```
 
 ## Quick Start
 

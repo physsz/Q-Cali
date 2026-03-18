@@ -33,5 +33,11 @@ data/raw/
 # Jupyter
 .ipynb_checkpoints/
 
+# Pytest
+.pytest_cache/
+
 # Drive symlink
 _drive/
+
+# Claude internals
+.claude/
