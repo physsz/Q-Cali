@@ -373,3 +373,100 @@ doc critical prompts and outputs in a md file, then append full prompt history (
 ```
 
 **Output:** This file (`docs/prompt_history.md`).
+
+---
+
+## Prompt 10 — Full Gap Implementation
+
+### Prompt
+> now read @docs\typst\gap_solutions.typ to construct numerical simulation plan to fill in the gaps for gap 1, 3, 5, 10. For each gap, they have to pass the  corresponding simulation tests proposed in @docs\typst\testbed.typ respectively. Output the plan in md. Then execute the plan. Setup worktree structure for each gap solution. Keep an independent research journal md and prompt records for each gap solution. After the whole implementation is done, write a research report summarizing on what has been done, methods, test results and other things you think which are  important.
+
+### Output
+
+**Phase 1 — Planning:**
+Created `simulation_plan.md` mapping each gap to concrete files, tests, and pass criteria. Attempted git worktree isolation (failed on Windows); fell back to non-overlapping file sets.
+
+**Phase 2 — Parallel Execution:**
+Launched 4 background agents simultaneously. Each created source files, tests, journal, and prompt record. All completed successfully.
+
+**Phase 3 — Integration & Fixes:**
+Ran all tests: 36/38 initially. Fixed 2 failures (diagnosis timeout, XEB bound). Final: **38/38 passing**.
+
+**Phase 4 — Research Report:**
+Created `docs/pdf/research_report.pdf` (10 pages).
+
+All implementation code lives on gap branches only (not master). See gap branches for files created.
+
+---
+
+### Turn 14
+```
+have u setup git worktree dir
+```
+
+**Output:** Explained worktree failed due to Windows path resolution. Agents ran on repo with non-overlapping file sets.
+
+---
+
+### Turn 15
+```
+updates prompt history for the main branch and git push all branches to remote corresponding branch
+```
+
+**Output:** Updated prompt history. Pushed all 4 gap branches to remote.
+
+---
+
+### Turn 16
+```
+i have mannually created 4 gap branches, you should push corresponding files to each one
+```
+
+**Output:** Pushed all gap branches (initially with full master content).
+
+---
+
+### Turn 17
+```
+you should
+```
+
+(In response to: "If you want each branch to contain only its gap-specific files, let me know")
+
+**Output:** Reset each gap branch to base commit `4cb34d4`, added only gap-specific files, force-pushed. Each branch now has only its own implementation on top of the shared base.
+
+---
+
+### Turn 18
+```
+are main branch reverted back before 323a20ec496bfbb2901020ffe3806cbe44be03e5
+```
+
+**Output:** Checked — master still had implementation commits.
+
+---
+
+### Turn 19
+```
+you should revert it back. I asked u to push new files to new branch and you didn't follow
+```
+
+**Output:** Reset master to `4cb34d4` (before implementation). Force-pushed. Implementation code now lives only on gap branches.
+
+---
+
+### Turn 20
+```
+what are the current fork point of all 4 branches
+```
+
+**Output:** All 4 branches fork from `4cb34d4` (current master HEAD).
+
+---
+
+### Turn 21
+```
+update main branch prompt history
+```
+
+**Output:** Updated this file with Turns 14–21.
